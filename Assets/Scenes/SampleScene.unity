@@ -2933,6 +2933,42 @@ CapsuleCollider:
   m_Height: 1.882512
   m_Direction: 1
   m_Center: {x: 0, y: 0.9280722, z: -0}
+--- !u!114 &447866230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447866226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7718d97377f79184fa233791027f788c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationRate: 160
+  moveRate: 240
+  shouldWalk: 1
+  walkTurn: 1
+  initialX: 0
+  initialRotation: 0
+  turning: 1
+  xDistance: 30
+--- !u!54 &447866231
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447866226}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 10
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
 --- !u!1 &474120730 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100068, guid: 5ddb940c16fd6034d8df56e6861ad04e,
@@ -4424,6 +4460,42 @@ CapsuleCollider:
   m_Height: 1.882512
   m_Direction: 1
   m_Center: {x: 0, y: 0.9280722, z: -0}
+--- !u!114 &783337927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783337925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7718d97377f79184fa233791027f788c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationRate: 100
+  moveRate: 90
+  shouldWalk: 1
+  walkTurn: 1
+  initialX: 0
+  initialRotation: 0
+  turning: 1
+  xDistance: 20
+--- !u!54 &783337930
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783337925}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 10
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
 --- !u!1 &796345338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 5ddb940c16fd6034d8df56e6861ad04e,
@@ -5278,7 +5350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ddb940c16fd6034d8df56e6861ad04e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -139.55
+      value: 165.13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ddb940c16fd6034d8df56e6861ad04e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5463,6 +5535,42 @@ CapsuleCollider:
   m_Height: 1.882512
   m_Direction: 1
   m_Center: {x: 0, y: 0.9280722, z: -0}
+--- !u!54 &937886577
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937886573}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 10
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
+--- !u!114 &937886578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937886573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7718d97377f79184fa233791027f788c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationRate: 140
+  moveRate: 120
+  shouldWalk: 1
+  walkTurn: 1
+  initialX: 0
+  initialRotation: 0
+  turning: -1
+  xDistance: 30
 --- !u!1 &946168941
 GameObject:
   m_ObjectHideFlags: 0
