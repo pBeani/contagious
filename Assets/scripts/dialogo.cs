@@ -19,7 +19,6 @@ public class dialogo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         panelBox.SetActive(false);
 
         if (arq!=null)
@@ -56,7 +55,8 @@ public class dialogo : MonoBehaviour
         }
         if (linhaAtual >= fimDaLinha)
         {
-            panelBox.SetActive(false);            
+            panelBox.SetActive(false);
+            SceneManager.LoadScene("vitoria");         
         }
         
     }

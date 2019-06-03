@@ -1,4 +1,4 @@
-Ola gado, reuniao as 9. Te encontro la $
-ate mais %
-Chefin
-
+[Chefe] : Achei que voce nao ia chegar nunca
+[Chefe] : Vamos ter uma reuniao hoje, as 9
+[Chefe] : Quero voca la
+[Chefe] : Depois disso, vamos conversar sobre uma possivel promocao
