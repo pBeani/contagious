@@ -19,8 +19,13 @@ public class PlayerColision : MonoBehaviour {
     public int linhaAtualEntrada = 0;
     public bool startChat = false;
     public bool chatStarted = false;
+    public ParticleSystem particlep;
+
 
     void Start() {
+
+        ParticleSystem.EmissionModule pEmission = particlep.emission;
+        pEmission.rateOverTime = 0;
         barraVida.minValue = 0;
         barraVida.maxValue = 500;
         barraVida.value = barraVida.maxValue;
@@ -77,6 +82,8 @@ public class PlayerColision : MonoBehaviour {
 
     private void Update()
     {
+
+
         if (barraVida.value >= vidaMaxima) barraVida.value = vidaMaxima;
         if (barraVida.value <barraVida.minValue) barraVida.value = barraVida.minValue;
 
@@ -101,7 +108,10 @@ public class PlayerColision : MonoBehaviour {
             }
     }
 
-    void UpdateBarra(float dano) {   
+    void UpdateBarra(float dano) {
+        ParticleSystem.EmissionModule pEmission = particlep.emission;
+       // float x = 
+           pEmission.rateOverTime= pEmission.rateOverTime.constant + 0.1f;
         barraVida.value -= dano;        
         if (barraVida.value <= barraVida.minValue)
         {

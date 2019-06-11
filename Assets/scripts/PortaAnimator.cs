@@ -10,6 +10,7 @@ public class PortaAnimator : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        anim.SetInteger("Move", 2);
     }
 
     // Update is called once per frame

@@ -11,7 +11,7 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {    
     public void CarregaScene1() {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Explicacao");
     }
 
     public void Quit()  
